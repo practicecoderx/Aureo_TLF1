@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .traffic-light {
+    width: 100px;
+    height: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    opacity: 0.3; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  .light.active {
+    opacity: 1; 
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  #startButton {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #startButton:hover {
+    background-color: #0056b3;
+  }
